@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.calculator {
+    border-radius: 1rem;
+    margin: 6rem 0 0 34rem;
+    width: 20rem;
+    background-color: black;
+    height: 30rem;
+
+
+    p {
+        font-size: 3.3rem;
+        text-align: end;
+        margin-right: 1rem;
+        padding-top: 2rem;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+    }
+
+    &__row {
+
+        margin: 2rem 0 0 3rem;
+    }
+
+    &__2row {
+        padding-bottom: 0.5rem;
+    }
+
+
+
+    &__3row {
+        padding-bottom: 0.5rem;
+    }
+
+    &__4row {
+        padding-bottom: 0.5rem;
+    }
+
+    &__5row {
+        padding-bottom: 0.5rem;
+    }
+
+    #zero {
+        width: 45%;
+        border-radius: 100px;
+        height: 3.5rem;
+    }
+
+    .btn {
+        border: none;
+        font-size: 1.4rem;
+        width: 22%;
+        height: 3.8rem;
+        border-radius: 90%;
+    }
+
+    .btn__silver {
+        color: black;
+        background-color: rgb(172, 172, 172);
+    }
+
+    .btn__gray {
+        color: white;
+        background-color: rgb(98, 98, 98);
+    }
+
+    .btn__orange {
+        color: white;
+        background-color: rgb(255, 178, 36);
+    }
+
+    #zero {
+        padding-right: 2rem;
+    }
+
+}

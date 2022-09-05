@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <div class="calculator__1row">
+            <p id="inputValue">0</p>
+        </div>
+<div class="calculator__row">
+        <div class="calculator__2row">
+            <button class="btn btn__silver" onclick="ClickSymbol(1);">AC</button>
+            <button class="btn btn__silver" onclick="ClickSymbol(2);">+/-</button>
+            <button class="btn btn__silver" onclick="ClickSymbol(3);">%</button>
+            <button class="btn btn__orange" onclick="ClickSymbol(4);">/</button>
+        </div>
+        <div class="calculator__3row">
+            <button class="btn btn__gray" onclick="ClickNumber(7);">7</button>
+            <button class="btn btn__gray" onclick="ClickNumber(8);">8</button>
+            <button class="btn btn__gray" onclick="ClickNumber(9);">9</button>
+            <button class="btn btn__orange" onclick="ClickSymbol(5);">x</button>
+        </div>
+        <div class="calculator__4row">
+            <button class="btn btn__gray" onclick="ClickNumber(4);">4</button>
+            <button class="btn btn__gray" onclick="ClickNumber(5);">5</button>
+            <button class="btn btn__gray" onclick="ClickNumber(6);">6</button>
+            <button class="btn btn__orange" onclick="ClickSymbol(6);">-</button>
+        </div>
+        <div class="calculator__5row">
+            <button class="btn btn__gray" onclick="ClickNumber(1);">1</button>
+            <button class="btn btn__gray" onclick="ClickNumber(2);">2</button>
+            <button class="btn btn__gray" onclick="ClickNumber(3);">3</button>
+            <button class="btn btn__orange" onclick="ClickSymbol(7);">+</button>
+        </div>
+        <div class="calculator__6row">
+            <button class="btn btn__gray" id="zero" onclick="ClickNumber(0);">0</button>
+            <button class="btn btn__gray" onclick="ClickSymbol(8);">,</button>
+            <button class="btn btn__orange" onclick="ClickSymbol(9);">=</button>
+        </div></div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
